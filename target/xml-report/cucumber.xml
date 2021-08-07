@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="208.762">
+    <testcase classname="US1004_Amazon Parameterized" name="TC07_Amazon iPhone arama parametreli" time="23.123">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "iPhone" icin arama yapar..............................................passed
+Then sonuclarin "iPhone" icerdigini test eder...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC08_Amazon tea pot arama parametreli" time="19.331">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "tea pot" icin arama yapar.............................................passed
+Then sonuclarin "tea pot" icerdigini test eder..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC09_Amazon flower arama parametreli" time="21.533">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "flower" icin arama yapar..............................................passed
+Then sonuclarin "flower" icerdigini test eder...............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama" time="17.743">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "elma" icin arama yapar................................................passed
+And sonuclarin "elma" icerdigini test eder..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 2" time="15.76">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "armut" icin arama yapar...............................................passed
+And sonuclarin "armut" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 3" time="14.124">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "kavun" icin arama yapar...............................................passed
+And sonuclarin "kavun" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 4" time="16.267">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "karpuz" icin arama yapar..............................................passed
+And sonuclarin "karpuz" icerdigini test eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 5" time="16.168">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "kiraz" icin arama yapar...............................................passed
+And sonuclarin "kiraz" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 6" time="16.681">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "visne" icin arama yapar...............................................passed
+And sonuclarin "visne" icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 7" time="11.131">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "erik" icin arama yapar................................................passed
+And sonuclarin "erik" icerdigini test eder..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1005_Amazon Scenerio Outline" name="TC10_Amazon Coklu Arama 8" time="12.198">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "avakado" icin arama yapar.............................................passed
+And sonuclarin "avakado" icerdigini test eder...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006_Farkli Url Calistirma" name="_2" time="11.125">
+        <system-out>
+            <![CDATA[Given kullanici "amazon_url" sayfasina gider................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006_Farkli Url Calistirma" name="_3" time="5.401">
+        <system-out>
+            <![CDATA[Given kullanici "yandex_url" sayfasina gider................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1006_Farkli Url Calistirma" name="_4" time="7.578">
+        <system-out>
+            <![CDATA[Given kullanici "facebook_url" sayfasina gider..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,1185 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Amazon sayfasina git",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10268968600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:56:53.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC07_Amazon iPhone arama parametreli",
+        "description": "",
+        "id": "us1004-amazon-parameterized;tc07-amazon-iphone-arama-parametreli",
+        "after": [
+          {
+            "result": {
+              "duration": 4490728300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8237168800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"iPhone\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58058100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuclarin \"iPhone\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Amazon sayfasina git",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6375999500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:57:16.703Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC08_Amazon tea pot arama parametreli",
+        "description": "",
+        "id": "us1004-amazon-parameterized;tc08-amazon-tea-pot-arama-parametreli",
+        "after": [
+          {
+            "result": {
+              "duration": 4684229500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8163814800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"tea pot\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tea pot\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103999100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sonuclarin \"tea pot\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tea pot\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Amazon sayfasina git",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8664612500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:57:36.044Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC09_Amazon flower arama parametreli",
+        "description": "",
+        "id": "us1004-amazon-parameterized;tc09-amazon-flower-arama-parametreli",
+        "after": [
+          {
+            "result": {
+              "duration": 1719115800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6891490400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"flower\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flower\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108000900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sonuclarin \"flower\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flower\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4145526800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      }
+    ],
+    "name": "US1004_Amazon Parameterized",
+    "description": "",
+    "id": "us1004-amazon-parameterized",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1004_Amazon_Parameterized.feature",
+    "tags": [
+      {
+        "name": "@rapor1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T19:57:57.608Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 553998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12967708000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4152149000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"elma\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"elma\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70001600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"elma\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"elma\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:58:15.359Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 473000600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7989611000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7247211600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"armut\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50002700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"armut\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:58:31.127Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4418993600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6246533500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3426690000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"kavun\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kavun\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30995100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"kavun\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kavun\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:58:45.259Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 732995700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5715070800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9746349000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"karpuz\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karpuz\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71998800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"karpuz\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karpuz\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:59:01.536Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 4615268900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8375886100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3112341700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"kiraz\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kiraz\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61996500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"kiraz\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kiraz\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:59:17.711Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 4817432700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6729610700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5065383600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"visne\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visne\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66999700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"visne\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visne\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:59:34.400Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1382058200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5724527500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3961521400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"erik\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"erik\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61999600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"erik\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"erik\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:59:45.536Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "TC10_Amazon Coklu Arama",
+        "description": "",
+        "id": "us1005-amazon-scenerio-outline;tc10-amazon-coklu-arama;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 578987800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6176734200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_Amazon_Sayfasina_Gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5378300100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"avakado\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"avakado\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62993900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sonuclarin \"avakado\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"avakado\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      }
+    ],
+    "name": "US1005_Amazon Scenerio Outline",
+    "description": "",
+    "id": "us1005-amazon-scenerio-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1005_Amazon_Scenario_Outline.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T19:59:57.748Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "us1006-farkli-url-calistirma;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4974474300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6150999000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazon_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T20:00:08.877Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "us1006-farkli-url-calistirma;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 647518000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4753514100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"yandex_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yandex_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T20:00:14.283Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "us1006-farkli-url-calistirma;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4455953500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3122923000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"facebook_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"facebook_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      }
+    ],
+    "name": "US1006_Farkli Url Calistirma",
+    "description": "",
+    "id": "us1006-farkli-url-calistirma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1006_Farkli_Url_Calistirma.feature",
+    "tags": []
+  }
+]

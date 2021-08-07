@@ -1,0 +1,1152 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T19:56:53.511Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3999100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC11 kullanici gecerli bilgilerle giris yapar",
+        "description": "",
+        "id": "us1007-koalaresort-positive-login;tc11-kullanici-gecerli-bilgilerle-giris-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 346967400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34543112700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1331997100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135995400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "gecerli username girer",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.gecerli_username_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130003800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "gecerli password girer",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.gecerli_password_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51702015500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22001800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yaptigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yaptigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      }
+    ],
+    "name": "US1007_KoalaResort Positive Login",
+    "description": "",
+    "id": "us1007-koalaresort-positive-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1007_KoalaResortPositiveLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T19:58:21.777Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC12 kullanici gecerli bilgilerle giris yapamaz",
+        "description": "",
+        "id": "us1008-koala-resort-negative-login;tc12-kullanici-gecerli-bilgilerle-giris-yapamaz",
+        "after": [
+          {
+            "result": {
+              "duration": 5534340900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22335687100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1044809100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130004600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici ismi olarak \"kr_gecersiz_username\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_username\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciIsmiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195993700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sifresi olarak \"kr_gecersiz_password\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_password\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciSifresiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1201072400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222000600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yapamadigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yapamadigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      }
+    ],
+    "name": "US1008_Koala Resort Negative Login",
+    "description": "",
+    "id": "us1008-koala-resort-negative-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1008_KoalaResortNegative_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T19:58:52.461Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC13 kullanici gecerli bilgilerle giris yapamaz",
+        "description": "",
+        "id": "us1009-koala-resort-negative-login-coklu;tc13-kullanici-gecerli-bilgilerle-giris-yapamaz;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2397001800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23732274400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1250221200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90000900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici ismi olarak \"kr_gecersiz_username5\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_username5\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciIsmiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182003100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sifresi olarak \"kr_gecersiz_password5\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_password5\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciSifresiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919078800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 414000900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yapamadigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yapamadigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:59:21.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC13 kullanici gecerli bilgilerle giris yapamaz",
+        "description": "",
+        "id": "us1009-koala-resort-negative-login-coklu;tc13-kullanici-gecerli-bilgilerle-giris-yapamaz;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1231001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18317868300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1605000200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127998400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici ismi olarak \"kr_gecersiz_username6\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_username6\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciIsmiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161999200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sifresi olarak \"kr_gecersiz_password6\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_password6\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciSifresiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 945521100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yapamadigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yapamadigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T19:59:43.902Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "TC13 kullanici gecerli bilgilerle giris yapamaz",
+        "description": "",
+        "id": "us1009-koala-resort-negative-login-coklu;tc13-kullanici-gecerli-bilgilerle-giris-yapamaz;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1017995300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16917080700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2665003500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128994800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici ismi olarak \"kr_gecersiz_username7\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_username7\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciIsmiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115997900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sifresi olarak \"kr_gecersiz_password7\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_password7\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciSifresiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885999500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44001600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yapamadigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yapamadigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T20:00:05.698Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC13 kullanici gecerli bilgilerle giris yapamaz",
+        "description": "",
+        "id": "us1009-koala-resort-negative-login-coklu;tc13-kullanici-gecerli-bilgilerle-giris-yapamaz;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 966999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11352387200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1153026500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85000700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici ismi olarak \"kr_gecersiz_username8\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_username8\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciIsmiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95002500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sifresi olarak \"kr_gecersiz_password8\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_password8\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciSifresiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 789062100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38998300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yapamadigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yapamadigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T20:00:20.191Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "TC13 kullanici gecerli bilgilerle giris yapamaz",
+        "description": "",
+        "id": "us1009-koala-resort-negative-login-coklu;tc13-kullanici-gecerli-bilgilerle-giris-yapamaz;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 935993300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11011839600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"kr_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 762299600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log in yazisina tiklar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.log_in_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108998700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici ismi olarak \"kr_gecersiz_username9\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_username9\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciIsmiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89997800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sifresi olarak \"kr_gecersiz_password9\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kr_gecersiz_password9\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.KoalaResortStepDefinitions.kullaniciSifresiOlarakGirer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 734301600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42001100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfaya giris yapamadigini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.KoalaResortStepDefinitions.sayfaya_giris_yapamadigini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      }
+    ],
+    "name": "US1009_Koala Resort Negative Login Coklu",
+    "description": "",
+    "id": "us1009-koala-resort-negative-login-coklu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1009_Koala_Resort_Negative_Coklu.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T20:00:33.899Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC14_Data Table Test",
+        "description": "",
+        "id": "us1010-editor-data-table;tc14-data-table-test",
+        "after": [
+          {
+            "result": {
+              "duration": 584000900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3263140700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"editor.datatables.net\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"editor.datatables.net\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112999100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "new butonuna basar",
+            "match": {
+              "location": "stepdefinitions.EditorDataTableStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 384997200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "tum bilgileri girer",
+            "match": {
+              "location": "stepdefinitions.EditorDataTableStepDefinitions.tum_bilgileri_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Create tusuna basar",
+            "match": {
+              "location": "stepdefinitions.EditorDataTableStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici ilk isim ile arama yapar",
+            "match": {
+              "location": "stepdefinitions.EditorDataTableStepDefinitions.kullanici_ilk_isim_ile_arama_yapar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "isim bolumunde isminin oldugunu dogrular",
+            "match": {
+              "location": "stepdefinitions.EditorDataTableStepDefinitions.isim_bolumunde_isminin_oldugunu_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      }
+    ],
+    "name": "US1010_Editor Data Table",
+    "description": "",
+    "id": "us1010-editor-data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1010_Editor_Data_Table.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T20:00:38.260Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC15_Kullanici Amazonda Mehmet aratir",
+        "description": "",
+        "id": "us1011-amazon-arama;tc15-kullanici-amazonda-mehmet-aratir",
+        "after": [
+          {
+            "result": {
+              "duration": 381522000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8784852300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"amazon_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1870587600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Today\u0027s deals sekmesine tiklar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.today_s_deals_sekmesine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2717747500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Today\u0027s deals sayfasinda \"Mehmet\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mehmet\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.today_s_deals_sayfasinda_icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62518900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ilk ilan isminde \"Mehmet\" gectigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mehmet\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.ilk_ilan_isminde_gectigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor2"
+          }
+        ]
+      }
+    ],
+    "name": "US1011 Amazon Arama",
+    "description": "",
+    "id": "us1011-amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1011_Amazon_Arama.feature",
+    "tags": []
+  }
+]

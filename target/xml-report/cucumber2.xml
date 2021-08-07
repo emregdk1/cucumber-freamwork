@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="239.036">
+    <testcase classname="US1007_KoalaResort Positive Login" name="TC11 kullanici gecerli bilgilerle giris yapar" time="88.24">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And gecerli username girer..................................................passed
+And gecerli password girer..................................................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yaptigini kontrol eder...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1008_Koala Resort Negative Login" name="TC12 kullanici gecerli bilgilerle giris yapamaz" time="30.671">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And kullanici ismi olarak "kr_gecersiz_username" girer......................passed
+And kullanici sifresi olarak "kr_gecersiz_password" girer...................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapamadigini kontrol eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009_Koala Resort Negative Login Coklu" name="TC13 kullanici gecerli bilgilerle giris yapamaz" time="28.986">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And kullanici ismi olarak "kr_gecersiz_username5" girer.....................passed
+And kullanici sifresi olarak "kr_gecersiz_password5" girer..................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapamadigini kontrol eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009_Koala Resort Negative Login Coklu" name="TC13 kullanici gecerli bilgilerle giris yapamaz 2" time="22.439">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And kullanici ismi olarak "kr_gecersiz_username6" girer.....................passed
+And kullanici sifresi olarak "kr_gecersiz_password6" girer..................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapamadigini kontrol eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009_Koala Resort Negative Login Coklu" name="TC13 kullanici gecerli bilgilerle giris yapamaz 3" time="21.78">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And kullanici ismi olarak "kr_gecersiz_username7" girer.....................passed
+And kullanici sifresi olarak "kr_gecersiz_password7" girer..................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapamadigini kontrol eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009_Koala Resort Negative Login Coklu" name="TC13 kullanici gecerli bilgilerle giris yapamaz 4" time="14.482">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And kullanici ismi olarak "kr_gecersiz_username8" girer.....................passed
+And kullanici sifresi olarak "kr_gecersiz_password8" girer..................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapamadigini kontrol eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009_Koala Resort Negative Login Coklu" name="TC13 kullanici gecerli bilgilerle giris yapamaz 5" time="13.688">
+        <system-out>
+            <![CDATA[Given kullanici "kr_url" sayfasina gider....................................passed
+Then Log in yazisina tiklar.................................................passed
+And kullanici ismi olarak "kr_gecersiz_username9" girer.....................passed
+And kullanici sifresi olarak "kr_gecersiz_password9" girer..................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapamadigini kontrol eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1010_Editor Data Table" name="TC14_Data Table Test" time="4.348">
+        <system-out>
+            <![CDATA[When kullanici "editor.datatables.net" sayfasina gider......................passed
+Then new butonuna basar.....................................................passed
+And tum bilgileri girer.....................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici ilk isim ile arama yapar.....................................passed
+Then isim bolumunde isminin oldugunu dogrular...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1011 Amazon Arama" name="TC15_Kullanici Amazonda Mehmet aratir" time="13.819">
+        <system-out>
+            <![CDATA[Given kullanici "amazon_url" sayfasina gider................................passed
+Then Today's deals sekmesine tiklar.........................................passed
+And Today's deals sayfasinda "Mehmet" icin arama yapar......................passed
+Then ilk ilan isminde "Mehmet" gectigini test eder..........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
